@@ -1,0 +1,32 @@
+.start-screen {
+    background-color: #404040;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 100vh;
+    }
+}
+
+.start-box {
+    height: 150px;
+    position: absolute;
+    bottom: 64px;
+    left: 120px;
+    right: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 150px;
+        width: 300px;
+        cursor: pointer;
+        border-radius: 60px;
+    }
+}
+
